@@ -39,7 +39,7 @@ time.sleep(2)
 for each in ('pyqt5', 'numpy', 'pandas', 'sys', 'datetime', 'wget'):
 	subprocess.run(f'pip install {each}')
 print('all dependencies installed: hopefully')
-break_line = input("<<<Press any key to exit>>>")
+break_line = input("<<<Press Enter to exit>>>")
 
 
 
