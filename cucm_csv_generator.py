@@ -3684,7 +3684,7 @@ class Ui_cucm_csv_generator(object):
     def tab_8_function_generate_csv_tab_07(self):
         pass
     def tab_8_function_download_update(self):
-        url = "https://github.com/JustinTArnold/Speech-recognition/archive/master.zip"
+        url = "https://github.com/JustinTArnold/CUCM_CSV_Generator/archive/main.zip"
         date_time_suffix = datetime.now().strftime("%d_%m_%Y_%H_%M_%S")
         wget.download(url, f'./Update_Files/Update_files_{date_time_suffix}.zip')
 
