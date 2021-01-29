@@ -6,7 +6,7 @@ import time
 
 my_path = "./"
 all_files = [f for f in listdir(my_path) if isfile(join(my_path, f))]
-os.remove('python_installer')
+os.remove('python_installer.exe')
 
 try:
 	my_path = os.path.join('./', 'csv_templates')
