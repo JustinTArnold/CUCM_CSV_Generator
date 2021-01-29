@@ -6,6 +6,6 @@ echo installing python
 timeout /t 5
 echo Python Installed
 timeout /t 2
-start python.exe installer.py
+start start.bat
 
 
