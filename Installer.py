@@ -40,6 +40,9 @@ for each in ('pyqt5', 'numpy', 'pandas', 'sys', 'datetime', 'wget'):
 	subprocess.run(f'pip install {each}')
 print('all dependencies installed: hopefully')
 break_line = input("<<<Press Enter to exit>>>")
+os.remove('start.bat')
+os.remove('install_first.bat')
+os.remove('installer.py')
 
 
 
