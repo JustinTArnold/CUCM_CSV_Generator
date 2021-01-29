@@ -6,12 +6,6 @@ import time
 
 my_path = "./"
 all_files = [f for f in listdir(my_path) if isfile(join(my_path, f))]
-print ("installing python")
-for each in all_files:
-	if each.endswith('exe'):
-		os.rename(each,'python_installer.exe')
-subprocess.run('python_installer.exe /quiet PrependPath=1 Include_test=0')
-print ("python installed")
 os.remove('python_installer')
 
 try:
