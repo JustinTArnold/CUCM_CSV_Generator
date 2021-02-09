@@ -3247,7 +3247,7 @@ class Ui_cucm_csv_generator(object):
         self.tab_8_button_02.clicked.connect(lambda:self.tab_8_function_choose_template_to_generate())
         self.tab_8_button_03.setText(_translate("cucm_csv_generator", "Download Update"))
         self.tab_8_button_03.clicked.connect(lambda:self.tab_8_function_download_update())
-        self.tab_8_label_01.setText(_translate("cucm_csv_generator", " v1.0.0"))
+        self.tab_8_label_01.setText(_translate("cucm_csv_generator", " v1.3.1"))
         self.all_tabs.setTabText(self.all_tabs.indexOf(self.tab_8), _translate("cucm_csv_generator", "Current Queue"))
 
     #--------------------------------------------------------------------------#
