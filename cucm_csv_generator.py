@@ -78,7 +78,7 @@ class Ui_cucm_csv_generator(object):
         self.tab_1_entry_box_04.setCurrentText("")
         self.tab_1_entry_box_04.setMaxVisibleItems(20)
         self.tab_1_entry_box_04.setObjectName("tab_1_entry_box_04")
-        for _ in range(19):
+        for _ in range(20):
             self.tab_1_entry_box_04.addItem("")
         self.tab_1_entry_box_04.setItemText(0, "")
         self.tab_1_entry_box_04.activated.connect(self.tab_1_function_auto_set_drop_downs)
@@ -87,14 +87,14 @@ class Ui_cucm_csv_generator(object):
         self.tab_1_entry_box_05.setGeometry(QtCore.QRect(10, 170, 251, 31))
         self.tab_1_entry_box_05.setMaxVisibleItems(20)
         self.tab_1_entry_box_05.setObjectName("tab_1_entry_box_05")
-        for _ in range(16):    
+        for _ in range(17):    
             self.tab_1_entry_box_05.addItem("")
         self.tab_1_entry_box_05.setItemText(0, "")
 
         self.tab_1_entry_box_06 = QtWidgets.QComboBox(self.tab_1)
         self.tab_1_entry_box_06.setGeometry(QtCore.QRect(10, 210, 251, 31))
         self.tab_1_entry_box_06.setObjectName("tab_1_entry_box_06")
-        for _ in range(7):  
+        for _ in range(8):  
             self.tab_1_entry_box_06.addItem("")
         self.tab_1_entry_box_06.setItemText(0, "")
 
@@ -151,7 +151,7 @@ class Ui_cucm_csv_generator(object):
         self.tab_1_entry_box_14.setGeometry(QtCore.QRect(10, 530, 251, 31))
         self.tab_1_entry_box_14.setMaxVisibleItems(20)
         self.tab_1_entry_box_14.setObjectName("tab_1_entry_box_14")
-        for _ in range(16): 
+        for _ in range(17): 
             self.tab_1_entry_box_14.addItem("")
         self.tab_1_entry_box_14.setItemText(0, "")
         
@@ -159,7 +159,7 @@ class Ui_cucm_csv_generator(object):
         self.tab_1_entry_box_15.setGeometry(QtCore.QRect(10, 570, 251, 31))
         self.tab_1_entry_box_15.setMaxVisibleItems(20)
         self.tab_1_entry_box_15.setObjectName("tab_1_entry_box_15")
-        for _ in range(16): 
+        for _ in range(17): 
             self.tab_1_entry_box_15.addItem("")
         self.tab_1_entry_box_15.setItemText(0, "")
 
@@ -1052,14 +1052,14 @@ class Ui_cucm_csv_generator(object):
         self.tab_2_entry_box_10 = QtWidgets.QComboBox(self.tab_2)
         self.tab_2_entry_box_10.setGeometry(QtCore.QRect(10, 370, 251, 31))
         self.tab_2_entry_box_10.setObjectName("tab_2_entry_box_10")
-        for _ in range(12):	
-        	self.tab_2_entry_box_10.addItem("")
+        for _ in range(12): 
+            self.tab_2_entry_box_10.addItem("")
         self.tab_2_entry_box_10.setItemText(0, "")
         self.tab_2_entry_box_11 = QtWidgets.QComboBox(self.tab_2)
         self.tab_2_entry_box_11.setGeometry(QtCore.QRect(10, 410, 251, 31))
         self.tab_2_entry_box_11.setObjectName("tab_2_entry_box_11")
-        for _ in range(11):	
-        	self.tab_2_entry_box_11.addItem("")
+        for _ in range(11): 
+            self.tab_2_entry_box_11.addItem("")
         
         self.tab_2_entry_box_11.setItemText(0, "")
         self.tab_2_label_11 = QtWidgets.QLabel(self.tab_2)
@@ -2756,8 +2756,8 @@ class Ui_cucm_csv_generator(object):
         self.tab_1_entry_box_19.setItemText(1, _translate("cucm_csv_generator", "Local-LineFWD-CSS"))
         self.tab_1_entry_box_19.setItemText(2, _translate("cucm_csv_generator", "LongDistance-LineFWD-CSS"))
 
-        self.tab_1_entry_box_20.setItemText(1, _translate("cucm_csv_generator", "True"))
-        self.tab_1_entry_box_20.setItemText(2, _translate("cucm_csv_generator", "False"))
+        self.tab_1_entry_box_20.setItemText(1, _translate("cucm_csv_generator", "t"))
+        self.tab_1_entry_box_20.setItemText(2, _translate("cucm_csv_generator", "f"))
         
         self.tab_1_entry_box_21.setItemText(1, _translate("cucm_csv_generator", "Local-LineFWD-CSS"))
         self.tab_1_entry_box_21.setItemText(2, _translate("cucm_csv_generator", "International-CSS"))
@@ -2770,8 +2770,8 @@ class Ui_cucm_csv_generator(object):
         self.tab_1_entry_box_24.setItemText(5, _translate("cucm_csv_generator", "5"))
         self.tab_1_entry_box_24.setItemText(6, _translate("cucm_csv_generator", "6"))
 
-        self.tab_1_entry_box_25.setItemText(1, _translate("cucm_csv_generator", "True"))
-        self.tab_1_entry_box_25.setItemText(2, _translate("cucm_csv_generator", "False"))
+        self.tab_1_entry_box_25.setItemText(1, _translate("cucm_csv_generator", "t"))
+        self.tab_1_entry_box_25.setItemText(2, _translate("cucm_csv_generator", "f"))
 
         self.tab_1_entry_box_28.setItemText(1, _translate("cucm_csv_generator", "Local-LineFWD-CSS"))
         self.tab_1_entry_box_28.setItemText(2, _translate("cucm_csv_generator", "LongDistance-LineFWD-CSS"))
@@ -2789,14 +2789,14 @@ class Ui_cucm_csv_generator(object):
         self.tab_1_entry_box_34.setItemText(1, _translate("cucm_csv_generator", "Unity-Connection-VMP"))
         self.tab_1_entry_box_34.setItemText(2, _translate("cucm_csv_generator", "NoVoiceMail"))
         
-        self.tab_1_entry_box_35.setItemText(1, _translate("cucm_csv_generator", "Unity-Connection-VMP"))
-        self.tab_1_entry_box_35.setItemText(2, _translate("cucm_csv_generator", "NoVoiceMail"))
+        self.tab_1_entry_box_35.setItemText(1, _translate("cucm_csv_generator", "t"))
+        self.tab_1_entry_box_35.setItemText(2, _translate("cucm_csv_generator", "f"))
 
         self.tab_1_entry_box_36.setItemText(1, _translate("cucm_csv_generator", "Local-LineFWD-CSS"))
         self.tab_1_entry_box_36.setItemText(2, _translate("cucm_csv_generator", "LongDistance-LineFWD-CSS"))
         
-        self.tab_1_entry_box_37.setItemText(1, _translate("cucm_csv_generator", "True"))
-        self.tab_1_entry_box_37.setItemText(2, _translate("cucm_csv_generator", "False"))
+        self.tab_1_entry_box_37.setItemText(1, _translate("cucm_csv_generator", "t"))
+        self.tab_1_entry_box_37.setItemText(2, _translate("cucm_csv_generator", "f"))
 
         self.tab_1_entry_box_38.setItemText(1, _translate("cucm_csv_generator", "Local-LineFWD-CSS"))
         self.tab_1_entry_box_38.setItemText(2, _translate("cucm_csv_generator", "International-CSS"))
@@ -2822,8 +2822,8 @@ class Ui_cucm_csv_generator(object):
         self.tab_1_entry_box_49.setItemText(1, _translate("cucm_csv_generator", "Local-LineFWD-CSS"))
         self.tab_1_entry_box_49.setItemText(2, _translate("cucm_csv_generator", "LongDistance-LineFWD-CSS"))
 
-        self.tab_1_entry_box_50.setItemText(1, _translate("cucm_csv_generator", "True"))
-        self.tab_1_entry_box_50.setItemText(2, _translate("cucm_csv_generator", "False"))
+        self.tab_1_entry_box_50.setItemText(1, _translate("cucm_csv_generator", "t"))
+        self.tab_1_entry_box_50.setItemText(2, _translate("cucm_csv_generator", "f"))
 
         self.tab_1_entry_box_51.setItemText(1, _translate("cucm_csv_generator", "Local-LineFWD-CSS"))
         self.tab_1_entry_box_51.setItemText(2, _translate("cucm_csv_generator", "International-CSS"))
@@ -2942,8 +2942,8 @@ class Ui_cucm_csv_generator(object):
         self.tab_2_label_14.setText(_translate("cucm_csv_generator", "Foward All CSS 1"))
         self.tab_2_entry_box_14.setItemText(1, _translate("cucm_csv_generator", "Local-LineFWD-CSS"))
         self.tab_2_entry_box_14.setItemText(2, _translate("cucm_csv_generator", "LongDistance-LineFWD-CSS"))
-        self.tab_2_entry_box_15.setItemText(1, _translate("cucm_csv_generator", "True"))
-        self.tab_2_entry_box_15.setItemText(2, _translate("cucm_csv_generator", "False"))
+        self.tab_2_entry_box_15.setItemText(1, _translate("cucm_csv_generator", "t"))
+        self.tab_2_entry_box_15.setItemText(2, _translate("cucm_csv_generator", "f"))
         self.tab_2_label_15.setText(_translate("cucm_csv_generator", "Foward Voice Mail 1"))
         self.tab_2_label_16.setText(_translate("cucm_csv_generator", "Foward Busy External CSS 1"))
         self.tab_2_entry_box_16.setItemText(1, _translate("cucm_csv_generator", "Local-LineFWD-CSS"))
@@ -2979,8 +2979,8 @@ class Ui_cucm_csv_generator(object):
         self.tab_2_entry_box_24.setItemText(2, _translate("cucm_csv_generator", "LongDistance-LineFWD-CSS"))
         self.tab_2_label_22.setText(_translate("cucm_csv_generator", "Directory Number 2"))
         self.tab_2_label_27.setText(_translate("cucm_csv_generator", "Line Text Label 2"))
-        self.tab_2_entry_box_25.setItemText(1, _translate("cucm_csv_generator", "True"))
-        self.tab_2_entry_box_25.setItemText(2, _translate("cucm_csv_generator", "False"))
+        self.tab_2_entry_box_25.setItemText(1, _translate("cucm_csv_generator", "t"))
+        self.tab_2_entry_box_25.setItemText(2, _translate("cucm_csv_generator", "f"))
         self.tab_2_label_23.setText(_translate("cucm_csv_generator", "Voice Mail Profile 2"))
         self.tab_2_label_26.setText(_translate("cucm_csv_generator", "Foward Busy External CSS 2"))
         self.tab_2_label_28.setText(_translate("cucm_csv_generator", "External Phone Number Mask 2"))
@@ -3021,8 +3021,8 @@ class Ui_cucm_csv_generator(object):
         self.tab_2_label_35.setText(_translate("cucm_csv_generator", "Foward Voice Mail 3"))
         self.tab_2_label_32.setText(_translate("cucm_csv_generator", "Directory Number 3"))
         self.tab_2_label_37.setText(_translate("cucm_csv_generator", "Line Text Label 3"))
-        self.tab_2_entry_box_35.setItemText(1, _translate("cucm_csv_generator", "True"))
-        self.tab_2_entry_box_35.setItemText(2, _translate("cucm_csv_generator", "False"))
+        self.tab_2_entry_box_35.setItemText(1, _translate("cucm_csv_generator", "t"))
+        self.tab_2_entry_box_35.setItemText(2, _translate("cucm_csv_generator", "f"))
         self.tab_2_label_41.setText(_translate("cucm_csv_generator", "URI 1 on Directory Number 3"))
         self.tab_2_label_36.setText(_translate("cucm_csv_generator", "Foward Busy External CSS 3"))
         self.tab_2_entry_box_40.setItemText(1, _translate("cucm_csv_generator", "Local-LineFWD-CSS"))
@@ -3334,7 +3334,7 @@ class Ui_cucm_csv_generator(object):
             if status == True:
                 pass
             else:
-                for i in range(100):	
+                for i in range(100):    
                     item = self.tab_8_list_box_01.item(i)
                     item.setText("")
         except:
@@ -3384,7 +3384,7 @@ class Ui_cucm_csv_generator(object):
             self.tab_1_function_auto_set_drop_downs_function([1,3,1,1,1,1,1,1,3,3,1,1,1,1,1,4,1,1,1,0,2])
         elif current_index == 6: #Cedar-Bluff-UPA-DP
             self.tab_1_function_auto_set_drop_downs_function([1,4,1,1,1,1,1,1,4,2,1,2,1,1,1,4,2,1,1,0,2])
-        elif current_index == 7: #Cedar-Bluff-TTu-DP
+        elif current_index == 7: #Cedar-Bluff-TTU-DP
             self.tab_1_function_auto_set_drop_downs_function([0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0])
         elif current_index == 8: #Cherokee-Farms-DP
             self.tab_1_function_auto_set_drop_downs_function([1,5,2,4,1,1,1,1,5,4,1,1,2,1,1,4,2,1,1,0,2])
@@ -3395,17 +3395,21 @@ class Ui_cucm_csv_generator(object):
         elif current_index == 11: #Patient-Registration-HLVI-DP
             self.tab_1_function_auto_set_drop_downs_function([1,8,2,4,1,1,1,1,8,8,1,1,2,2,1,4,1,2,1,0,2])
         elif current_index == 12: #PoB-DP1
-            self.tab_1_function_auto_set_drop_downs_function([1,9,2,4,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0])
-        elif current_index == 13: #
+            self.tab_1_function_auto_set_drop_downs_function([1,9,2,4,1,1,1,1,9,9,1,1,1,2,1,4,2,1,1,0,2])
+        elif current_index == 13: #Pulm-Critcal-Care-DP
+            self.tab_1_function_auto_set_drop_downs_function([1,10,2,4,1,1,1,1,10,10,1,1,2,2,1,4,2,2,1,0,2])
+        elif current_index == 14: #Pulm-Function-DP
             self.tab_1_function_auto_set_drop_downs_function([0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0])
-        elif current_index == 14: #
-            self.tab_1_function_auto_set_drop_downs_function([0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0])
-        elif current_index == 15: #
-            self.tab_1_function_auto_set_drop_downs_function([0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0])
-        elif current_index == 16: #
-            self.tab_1_function_auto_set_drop_downs_function([0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0])
-        elif current_index == 17: #
-            self.tab_1_function_auto_set_drop_downs_function([0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0])
+        elif current_index == 15: #Sevierville-DP
+            self.tab_1_function_auto_set_drop_downs_function([1,12,7,3,1,1,1,2,12,12,1,1,1,2,1,4,2,1,1,0,2])
+        elif current_index == 16: #Town-Center-DP
+            self.tab_1_function_auto_set_drop_downs_function([4,13,3,5,1,1,1,1,13,13,1,1,1,1,1,4,2,1,1,0,2])
+        elif current_index == 17: #Univ-Cardio-DP
+            self.tab_1_function_auto_set_drop_downs_function([5,14,2,4,1,1,1,1,14,14,1,1,2,1,1,4,2,2,1,0,2])
+        elif current_index == 18: #University-Heart-Surgeons-DP
+            self.tab_1_function_auto_set_drop_downs_function([1,15,2,4,1,1,1,1,15,15,1,1,2,2,1,4,2,2,1,0,2])
+        elif current_index == 19: #Wound-Care-HLVI-DP
+            self.tab_1_function_auto_set_drop_downs_function([1,16,2,4,1,1,1,1,16,16,1,1,2,2,1,4,2,2,1,0,2])
 
     #--------------------------------------------------------------------------#
     #-                                 Tab 4                                  -#
@@ -3423,7 +3427,7 @@ class Ui_cucm_csv_generator(object):
                 ref_entry = getattr(self, f"tab_4_entry_box_{number}")
                 ref_label = getattr(self, f"tab_4_label_{number}")
                 ref_entry.setHidden(True)
-                ref_label.setHidden(True)
+                ref_label.setHidden(t)
 
     def tab_4_function_hide_line_3(self):
         if self.tab_4_check_box_02.checkState() == 2:
@@ -3562,6 +3566,8 @@ class Ui_cucm_csv_generator(object):
             self.tab_8_function_generate_csv_tab_06()
         elif check_string.startswith("CSF"):
             self.tab_8_function_generate_csv_tab_04()
+        elif check_string.startswith("SEP"):
+            self.tab_8_function_generate_csv_tab_01()
     
     def tab_8_function_generate_csv_tab_01(self):
         ready = []
@@ -3569,9 +3575,9 @@ class Ui_cucm_csv_generator(object):
         with open('./csv_templates/phone_7841_template.csv', encoding="utf-8") as csv_file:
             rows = [row for row in csv.reader(csv_file)]
             row_len = len(rows[0])
-            for i in range(100):
+            for i in range(100): 
                 current_line = self.tab_8_list_box_01.item(i)
-                if current_line.text() == "":
+                if current_line.text() == "": 
                     break
                 else:
                     rows.append([""] * row_len)
@@ -3579,10 +3585,67 @@ class Ui_cucm_csv_generator(object):
                 current_line = self.tab_8_list_box_01.item(i)
                 if current_line.text() == "":
                     break
-                else:
+                else: #All cell filling goes in this else logic tree
                     string_list = current_line.text().split("=")
+                    extra_options = []
+                    line_2 = []
+                    zip_list_1 = [string_list[32],'Endpoints-PT',string_list[33],'LongDistance-CSS','Auto Answer Off',string_list[34],
+                    string_list[35],string_list[36],string_list[37],string_list[36],string_list[37],string_list[36],string_list[37],
+                    string_list[36],string_list[37],string_list[36],string_list[37],string_list[36],string_list[37],
+                    string_list[38],string_list[39],'4','2','Use System Policy','Use System Default','Use System Default',
+                    'f','f','f','f',string_list[40],string_list[41],string_list[41],'Standard Presence group','Local-LineFWD-CSS',string_list[36],
+                    'Local-LineFWD-CSS',string_list[38],string_list[38],'f',string_list[36],string_list[37],string_list[36],string_list[37],'t',
+                    'Default',string_list[42],string_list[43],'Use System Default','t','Use System Default','Use System Default',
+                    'f','f','Default','t','f','f',string_list[44],'-1','Default']
+                    line_3 = []
+                    zip_list_2 = [string_list[45],'Endpoints-PT',string_list[46],'LongDistance-CSS','Auto Answer Off',
+                    string_list[47],'98658397604',string_list[48],string_list[49],string_list[48],string_list[49],string_list[48],string_list[49],
+                    string_list[48],string_list[49],string_list[48],string_list[49],string_list[48],string_list[49],
+                    string_list[48],string_list[51],string_list[52],'4','2','Use System Policy','Use System Default',
+                    'Use System Default','f','f','f','f',string_list[53],string_list[54],string_list[54],'Standard Presence Group',
+                    string_list[50],'f',string_list[50],string_list[54],string_list[54],'f','f',string_list[50],'f',string_list[50],
+                    't','Default',string_list[55],string_list[56],'Use System Default','t','Use System Default','Use System Default',
+                    'f','f','Default','t','f','f',string_list[57],'-1','Default']
+                    for each in range(200):
+                        extra_options.append('')
+                        line_2.append('')
+                        line_3.append('')
+                    if string_list[30] != '':
+                        extra_options[0] = 't'
+                    if self.tab_1_check_box_01.isChecked(): #line_2
+                        for index, value in zip(range(61),(zip_list_1)):
+                            line_2[index] = value
+                    if self.tab_1_check_box_02.isChecked(): #line_2
+                        for index, value in zip(range(61),(zip_list_2)):
+                            line_3[index] = value
                     try:
-                        value_list = []
+                        value_list = [string_list[0], string_list[1],string_list[4],string_list[3],string_list[5],'f','United States',
+                        string_list[6],'English United States','None','0',string_list[7],string_list[8],'t','f',
+                        string_list[9],'Default','Default','Csico 7841',string_list[10],string_list[11],string_list[12],
+                        't','Standard Presence group','Cisco 7841 - Standard SIP Non-Secure Profile',string_list[13],
+                        'f','f','f','No Pending Operation','SIP','<disableSpeaker>f</disableSpeaker><disableSpeakerAndHeadset>f</disableSpeakerAndHeadset><pcPort>0</pcPort><garp>1</garp><voiceVlanAccess>0</voiceVlanAccess><webAccess>0</webAccess><spanToPCPort>1</spanToPCPort><loggingDisplay>1</loggingDisplay><recordingTone>0</recordingTone><recordingToneLocalVolume>100</recordingToneLocalVolume><recordingToneRemoteVolume>50</recordingToneRemoteVolume><recordingToneDuration></recordingToneDuration><moreKeyReversionTimer>5</moreKeyReversionTimer><lldpAssetId></lldpAssetId><powerPriority>0</powerPriority><LineKeyBarge>0</LineKeyBarge><minimumRingVolume>0</minimumRingVolume><ehookEnable>0</ehookEnable><headsetWidebandUIControl>0</headsetWidebandUIControl><headsetWidebandEnable>0</headsetWidebandEnable><recentsSoftkey>1</recentsSoftkey>',
+                        string_list[14],'No Preference','0','Standard SIP Profile','711ulaw','f','t','f','Default',
+                        'POB-Media-Resources-CDC','Use Common Phone Profile Setting','f','Off','Off','Default','Default',
+                        'Default','Default','No Rollover','Default','f','Default','Default','f','f','Not Trusted',
+                        'f','t','t','f','f','f','-1','f',string_list[15],'Endpoints-PT',string_list[16], string_list[17],
+                        'Auto Answer Off', 'f',string_list[18],string_list[19],string_list[20],string_list[19],string_list[20],
+                        string_list[19],string_list[20],string_list[19],string_list[20],string_list[19],string_list[20],
+                        string_list[19],string_list[20],string_list[21],string_list[22],string_list[23],'2','Use System Policy',
+                        'Use System Default','Use System Default','f','f','f',string_list[24],string_list[25],string_list[26],string_list[26],
+                        'Standard Presence group',string_list[27],'f','Local-LineFWD-CSS',string_list[26],string_list[26],'f',string_list[19],string_list[20],
+                        string_list[19],string_list[20],'t','Default',string_list[28],string_list[29],'Use System Default',
+                        't','Use System Default', ' Use System Default','f','f','Default','t',string_list[30], extra_options[0],
+                        'f','f',string_list[31],'-1','Default',line_2[0],line_2[1],line_2[2],line_2[3],line_2[4],line_2[5],
+                        line_2[6],line_2[7],line_2[8],line_2[9],line_2[10],line_2[11],line_2[12],line_2[13],line_2[14],line_2[15],line_2[16],
+                        line_2[17],line_2[18],line_2[19],line_2[20],line_2[21],line_2[22],line_2[23],line_2[24],line_2[25],line_2[26],line_2[27],
+                        line_2[28],line_2[29],line_2[30],line_2[31],line_2[32],line_2[33],line_2[34],line_2[35],line_2[36],line_2[37],line_2[38],
+                        line_2[39],line_2[40],line_2[41],line_2[42],line_2[43],line_2[44],line_2[45],line_2[46],line_2[47],line_2[48],line_2[49],
+                        line_2[50],line_2[51],line_2[52],line_2[53],line_2[54],line_2[55],line_2[56],line_2[57],line_2[58],line_2[59],line_2[60],
+                        line_3[0],line_3[1],line_3[2],line_3[3],line_3[4],line_3[5],line_3[6],line_3[7],line_3[8],line_3[9],line_3[10],line_3[11],line_3[12],line_3[13],line_3[14],line_3[15],line_3[16],
+                        line_3[17],line_3[18],line_3[19],line_3[20],line_3[21],line_3[22],line_3[23],line_3[24],line_3[25],line_3[26],line_3[27],
+                        line_3[28],line_3[29],line_3[30],line_3[31],line_3[32],line_3[33],line_3[34],line_3[35],line_3[36],line_3[37],line_3[38],
+                        line_3[39],line_3[40],line_3[41],line_3[42],line_3[43],line_3[44],line_3[45],line_3[46],line_3[47],line_3[48],line_3[49],
+                        line_3[50],line_3[51],line_3[52],line_3[53],line_3[54],line_3[55],line_3[56],line_3[57],line_3[58],line_3[59],line_3[60]]
                         if rows[i+1][0] == "":
                             start_index = 0
                             for value in value_list:
@@ -3600,7 +3663,6 @@ class Ui_cucm_csv_generator(object):
         item.setText("SUCCESS")
         start_wait_timer = threading.Thread(target=self.threaded_wait_time)
         start_wait_timer.start()
-    
     def tab_8_function_generate_csv_tab_02(self):
         pass
     def tab_8_function_generate_csv_tab_03(self):
